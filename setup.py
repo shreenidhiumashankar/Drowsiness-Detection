@@ -15,7 +15,7 @@ setup(
     description="Real-time driver drowsiness and yawn detection system using MediaPipe Face Mesh, OpenCV, and Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/shreenidhi-umashankar/Drowsiness-Detection",
+    url="https://github.com/shreenidhiumashankar/Drowsiness-Detection",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

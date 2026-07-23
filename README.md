@@ -137,7 +137,7 @@ Drowsiness-Detection/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/shreenidhi-umashankar/Drowsiness-Detection.git
+git clone https://github.com/shreenidhiumashankar/Drowsiness-Detection.git
 cd Drowsiness-Detection
 ```
 
