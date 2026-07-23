@@ -3,7 +3,6 @@
 import logging
 import threading
 import tkinter as tk
-from tkinter import ttk
 from typing import Optional
 
 import cv2
@@ -64,7 +63,7 @@ class DrowsinessGUI:
 
         # Status & Metric Telemetry Bar
         telemetry_frame = tk.Frame(self.root, bg="#1e1e2e")
-        telemetry_frame.pack(fill="x", px=20, pady=5)
+        telemetry_frame.pack(fill="x", padx=20, pady=5)
 
         self.status_label = tk.Label(
             telemetry_frame,
@@ -73,7 +72,7 @@ class DrowsinessGUI:
             fg="#a6adc8",
             bg="#1e1e2e",
         )
-        self.status_label.pack(side="left", px=20)
+        self.status_label.pack(side="left", padx=20)
 
         self.metrics_label = tk.Label(
             telemetry_frame,
@@ -82,7 +81,7 @@ class DrowsinessGUI:
             fg="#a6adc8",
             bg="#1e1e2e",
         )
-        self.metrics_label.pack(side="right", px=20)
+        self.metrics_label.pack(side="right", padx=20)
 
         # Control Buttons Frame
         btn_frame = tk.Frame(self.root, bg="#1e1e2e")
@@ -95,8 +94,8 @@ class DrowsinessGUI:
             bg="#a6e3a1",
             fg="#11111b",
             activebackground="#94e2d5",
-            px=20,
-            py=8,
+            padx=20,
+            pady=8,
             relief="flat",
             command=self.start_detection,
         )
@@ -109,8 +108,8 @@ class DrowsinessGUI:
             bg="#f38ba8",
             fg="#11111b",
             activebackground="#eba0ac",
-            px=20,
-            py=8,
+            padx=20,
+            pady=8,
             relief="flat",
             state="disabled",
             command=self.stop_detection,
